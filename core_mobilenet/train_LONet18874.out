@@ -1,0 +1,95 @@
+nohup: ignoring input
+pid: 29030     GPU: 3
+root_dir:  /home-ex/tclhk/guoqiang/Animoji/core_mobilenet
+base_dir:  /home-ex/tclhk/guoqiang/Animoji/core_mobilenet/../data/training_data/L48_mobilenet18874/imglists/LONet
+model_path:  /home-ex/tclhk/guoqiang/Animoji/core_mobilenet/../models/LONet_mobilenet18874/LONet
+logs_dir:  /home-ex/tclhk/guoqiang/Animoji/core_mobilenet/../models/logs/LONet_mobilenet18874
+/home-ex/tclhk/guoqiang/Animoji/core_mobilenet/../data/training_data/L48_mobilenet18874/imglists/LONet/train_LONet.txt
+Total datasets is:  510297
+/home-ex/tclhk/guoqiang/Animoji/core_mobilenet/../models/LONet_mobilenet18874/LONet
+iamge channel:  3
+(45, 96, 96, 3)
+(45, 96, 96, 3)
+(135, 96, 96, 3)
+(90, 96, 96, 3)
+(90, 96, 96, 3)
+(405, 96, 96, 3)
+(405,)
+(405, 4)
+(405, 10)
+(405, 140)
+L_O_Net network shape
+(405, 96, 96, 3)
+(405, 48, 48, 32)
+(405, 48, 48, 16)
+(405, 24, 24, 24)
+(405, 12, 12, 32)
+(405, 12, 12, 64)
+(405, 6, 6, 96)
+(405, 3, 3, 160)
+(405, 3, 3, 320)
+(405, 1, 1, 1280)
+(405, 96)
+(405, 256)
+(405, 2)
+(405, 4)
+(405, 10)
+(405, 140)
+2018-11-09 10:52:49.632359: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-11-09 10:52:49.632442: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-11-09 10:52:49.632449: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-11-09 10:52:49.632453: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-11-09 10:52:49.632458: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-11-09 10:52:49.963131: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.3285
+pciBusID 0000:84:00.0
+Total memory: 15.89GiB
+Free memory: 15.60GiB
+2018-11-09 10:52:49.963182: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-11-09 10:52:49.963190: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-11-09 10:52:49.963199: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:84:00.0)
+2018-11-09 11:03:41.640496: Step: 500, acc: 0.978, recall: 0.978, cls loss: 0.1426, bbox loss: 0.05844, landmark loss: 0.0219, animoji loss: 0.2229, L2 loss: 0.04126, lr:0.001 
+2018-11-09 11:14:21.299946: Step: 1000, acc: 0.967, recall: 0.956, cls loss: 0.1547, bbox loss: 0.04938, landmark loss: 0.01704, animoji loss: 0.172, L2 loss: 0.04269, lr:0.001 
+Save model epoch: 1, Step: 1260, acc: 0.967, recall: 0.933, cls loss: 0.1336, bbox loss: 0.04171, landmark loss: 0.01225, animoji loss: 0.1717, L2 loss: 0.04351, lr:0.001 
+2018-11-09 11:25:03.440397: Step: 1500, acc: 0.956, recall: 0.933, cls loss: 0.1991, bbox loss: 0.04749, landmark loss: 0.01082, animoji loss: 0.1459, L2 loss: 0.04409, lr:0.001 
+2018-11-09 11:35:42.959435: Step: 2000, acc: 0.978, recall: 0.956, cls loss: 0.0808, bbox loss: 0.04417, landmark loss: 0.01129, animoji loss: 0.1239, L2 loss: 0.04543, lr:0.001 
+2018-11-09 11:46:22.159663: Step: 2500, acc: 1.0, recall: 1.0, cls loss: 0.05954, bbox loss: 0.03895, landmark loss: 0.01007, animoji loss: 0.1255, L2 loss: 0.0469, lr:0.001 
+Save model epoch: 2, Step: 2520, acc: 0.989, recall: 0.978, cls loss: 0.05871, bbox loss: 0.03644, landmark loss: 0.01064, animoji loss: 0.1077, L2 loss: 0.04693, lr:0.001 
+2018-11-09 11:57:02.052898: Step: 3000, acc: 0.989, recall: 0.978, cls loss: 0.05331, bbox loss: 0.03171, landmark loss: 0.01119, animoji loss: 0.1406, L2 loss: 0.04797, lr:0.001 
+2018-11-09 12:07:42.293739: Step: 3500, acc: 0.967, recall: 0.933, cls loss: 0.1677, bbox loss: 0.03439, landmark loss: 0.008483, animoji loss: 0.1105, L2 loss: 0.04942, lr:0.001 
+Save model epoch: 3, Step: 3780, acc: 0.989, recall: 0.978, cls loss: 0.09448, bbox loss: 0.04198, landmark loss: 0.01177, animoji loss: 0.1479, L2 loss: 0.05006, lr:0.001 
+2018-11-09 12:18:24.096971: Step: 4000, acc: 0.978, recall: 0.978, cls loss: 0.09877, bbox loss: 0.03603, landmark loss: 0.009277, animoji loss: 0.09892, L2 loss: 0.05094, lr:0.001 
+2018-11-09 12:29:04.939131: Step: 4500, acc: 0.978, recall: 0.978, cls loss: 0.08158, bbox loss: 0.0396, landmark loss: 0.006341, animoji loss: 0.1142, L2 loss: 0.05293, lr:0.001 
+2018-11-09 12:39:45.638271: Step: 5000, acc: 0.967, recall: 0.933, cls loss: 0.1054, bbox loss: 0.03434, landmark loss: 0.009649, animoji loss: 0.1138, L2 loss: 0.05551, lr:0.001 
+Save model epoch: 4, Step: 5040, acc: 0.989, recall: 0.978, cls loss: 0.07298, bbox loss: 0.0435, landmark loss: 0.009463, animoji loss: 0.1332, L2 loss: 0.05572, lr:0.001 
+2018-11-09 12:50:27.289671: Step: 5500, acc: 0.956, recall: 0.956, cls loss: 0.1359, bbox loss: 0.03772, landmark loss: 0.007241, animoji loss: 0.1013, L2 loss: 0.05802, lr:0.001 
+2018-11-09 13:01:07.191616: Step: 6000, acc: 1.0, recall: 1.0, cls loss: 0.03754, bbox loss: 0.03456, landmark loss: 0.007537, animoji loss: 0.0996, L2 loss: 0.06014, lr:0.001 
+Save model epoch: 5, Step: 6300, acc: 1.0, recall: 1.0, cls loss: 0.02731, bbox loss: 0.03833, landmark loss: 0.007288, animoji loss: 0.1086, L2 loss: 0.06157, lr:0.001 
+2018-11-09 13:11:48.394432: Step: 6500, acc: 1.0, recall: 1.0, cls loss: 0.02462, bbox loss: 0.04085, landmark loss: 0.007555, animoji loss: 0.1068, L2 loss: 0.0625, lr:0.001 
+2018-11-09 13:22:28.273436: Step: 7000, acc: 1.0, recall: 1.0, cls loss: 0.0206, bbox loss: 0.03617, landmark loss: 0.008501, animoji loss: 0.1186, L2 loss: 0.06522, lr:0.001 
+2018-11-09 13:33:08.633765: Step: 7500, acc: 0.978, recall: 0.978, cls loss: 0.06637, bbox loss: 0.02909, landmark loss: 0.006668, animoji loss: 0.09261, L2 loss: 0.06735, lr:0.001 
+Save model epoch: 6, Step: 7560, acc: 1.0, recall: 1.0, cls loss: 0.03724, bbox loss: 0.03887, landmark loss: 0.008023, animoji loss: 0.1114, L2 loss: 0.06803, lr:0.001 
+2018-11-09 13:43:51.288283: Step: 8000, acc: 0.967, recall: 0.978, cls loss: 0.1795, bbox loss: 0.03188, landmark loss: 0.006804, animoji loss: 0.09208, L2 loss: 0.07019, lr:0.001 
+2018-11-09 13:54:32.026059: Step: 8500, acc: 0.978, recall: 0.978, cls loss: 0.04878, bbox loss: 0.03319, landmark loss: 0.006929, animoji loss: 0.1029, L2 loss: 0.07246, lr:0.001 
+Save model epoch: 7, Step: 8820, acc: 1.0, recall: 1.0, cls loss: 0.03673, bbox loss: 0.02962, landmark loss: 0.007995, animoji loss: 0.0956, L2 loss: 0.07449, lr:0.001 
+2018-11-09 14:05:13.396210: Step: 9000, acc: 0.967, recall: 0.933, cls loss: 0.1934, bbox loss: 0.03154, landmark loss: 0.005701, animoji loss: 0.0883, L2 loss: 0.07496, lr:0.001 
+2018-11-09 14:15:53.564293: Step: 9500, acc: 0.967, recall: 0.956, cls loss: 0.1091, bbox loss: 0.03046, landmark loss: 0.00624, animoji loss: 0.08524, L2 loss: 0.07626, lr:0.001 
+2018-11-09 14:26:34.364383: Step: 10000, acc: 0.978, recall: 0.978, cls loss: 0.06181, bbox loss: 0.03007, landmark loss: 0.006971, animoji loss: 0.1031, L2 loss: 0.07809, lr:0.001 
+Save model epoch: 8, Step: 10080, acc: 0.967, recall: 0.933, cls loss: 0.116, bbox loss: 0.03516, landmark loss: 0.006737, animoji loss: 0.09209, L2 loss: 0.07845, lr:0.001 
+2018-11-09 14:37:15.836593: Step: 10500, acc: 0.989, recall: 0.978, cls loss: 0.05556, bbox loss: 0.0267, landmark loss: 0.009269, animoji loss: 0.09093, L2 loss: 0.07966, lr:0.001 
+2018-11-09 14:47:56.197930: Step: 11000, acc: 0.967, recall: 0.978, cls loss: 0.2281, bbox loss: 0.02703, landmark loss: 0.006638, animoji loss: 0.08797, L2 loss: 0.0817, lr:0.001 
+Save model epoch: 9, Step: 11340, acc: 0.978, recall: 0.978, cls loss: 0.0807, bbox loss: 0.03054, landmark loss: 0.00747, animoji loss: 0.08963, L2 loss: 0.08279, lr:0.001 
+2018-11-09 14:58:37.959300: Step: 11500, acc: 0.978, recall: 0.956, cls loss: 0.0891, bbox loss: 0.02814, landmark loss: 0.004435, animoji loss: 0.07645, L2 loss: 0.08276, lr:0.001 
+2018-11-09 15:09:18.041683: Step: 12000, acc: 0.978, recall: 0.978, cls loss: 0.04829, bbox loss: 0.03728, landmark loss: 0.009873, animoji loss: 0.08668, L2 loss: 0.08284, lr:0.001 
+2018-11-09 15:19:58.064035: Step: 12500, acc: 1.0, recall: 1.0, cls loss: 0.03158, bbox loss: 0.03507, landmark loss: 0.00573, animoji loss: 0.08746, L2 loss: 0.08424, lr:0.001 
+Save model epoch: 10, Step: 12600, acc: 1.0, recall: 1.0, cls loss: 0.01136, bbox loss: 0.02577, landmark loss: 0.006957, animoji loss: 0.08449, L2 loss: 0.08407, lr:0.0001 
+2018-11-09 15:30:40.197314: Step: 13000, acc: 1.0, recall: 1.0, cls loss: 0.01994, bbox loss: 0.02799, landmark loss: 0.004173, animoji loss: 0.07135, L2 loss: 0.08204, lr:0.0001 
+2018-11-09 15:41:20.445141: Step: 13500, acc: 0.956, recall: 0.978, cls loss: 0.2612, bbox loss: 0.02154, landmark loss: 0.004621, animoji loss: 0.06187, L2 loss: 0.07954, lr:0.0001 
+Save model epoch: 11, Step: 13860, acc: 1.0, recall: 1.0, cls loss: 0.009478, bbox loss: 0.02318, landmark loss: 0.003763, animoji loss: 0.06467, L2 loss: 0.07782, lr:0.0001 
+2018-11-09 15:52:02.270710: Step: 14000, acc: 1.0, recall: 1.0, cls loss: 0.007051, bbox loss: 0.03221, landmark loss: 0.004271, animoji loss: 0.05201, L2 loss: 0.07719, lr:0.0001 
+2018-11-09 16:02:42.341147: Step: 14500, acc: 0.989, recall: 1.0, cls loss: 0.09408, bbox loss: 0.03167, landmark loss: 0.003991, animoji loss: 0.06193, L2 loss: 0.07498, lr:0.0001 
+2018-11-09 16:13:22.539960: Step: 15000, acc: 0.989, recall: 0.978, cls loss: 0.02521, bbox loss: 0.02115, landmark loss: 0.003293, animoji loss: 0.0555, L2 loss: 0.07306, lr:0.0001 
+Save model epoch: 12, Step: 15120, acc: 0.989, recall: 0.978, cls loss: 0.1097, bbox loss: 0.02253, landmark loss: 0.004283, animoji loss: 0.0555, L2 loss: 0.07268, lr:0.0001 
+2018-11-09 16:24:04.007705: Step: 15500, acc: 1.0, recall: 1.0, cls loss: 0.008822, bbox loss: 0.02871, landmark loss: 0.003879, animoji loss: 0.05458, L2 loss: 0.07134, lr:0.0001 
+2018-11-09 16:34:44.419952: Step: 16000, acc: 0.989, recall: 0.978, cls loss: 0.08306, bbox loss: 0.02512, landmark loss: 0.003765, animoji loss: 0.06978, L2 loss: 0.06976, lr:0.0001 
